@@ -1,0 +1,34 @@
+/* this is header  */
+.header-box {
+    background-image: url(../images/background.png);
+    max-width: 1366px;
+	width: 100%
+	height: 324px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.nav-li {
+    font-size: 12px;
+    margin-right: 68px;
+}
+.nav-li:nth-child (1) {
+    color: blue;
+}
+.nav-ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-left: 139px;
+    max-width: 1088px;
+    width: 100%;
+    height: 20px;
+}
+.logo {
+    font-size: 14px;
+    padding-right: 306px;
+}
+.map-box {
+    margin-left: 139px;
+    margin-top: 374px;
+}
