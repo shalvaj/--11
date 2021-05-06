@@ -2,7 +2,7 @@
 .header-box {
     background-image: url(../images/background.png);
     max-width: 1366px;
-	width: 100%
+	width: 100%;
 	height: 324px;
 	background-size: cover;
 	background-position: center;
@@ -28,7 +28,40 @@
     font-size: 14px;
     padding-right: 306px;
 }
+
+/* this is map */
 .map-box {
     margin-left: 139px;
     margin-top: 374px;
+}
+/* this is form */
+.h-box {
+    font-size: 14px;
+    margin-left: 139px;
+    margin-top: 56px;
+    max-width: 64px;
+    width: 100%;
+    height: 19px;
+}
+.p-box {
+    font-size: 42px;
+    max-width: 331px;
+    width: 100%;
+    height: 112px;
+    margin-left: 139px;
+}
+.tarea-box {
+    resize: none;
+    max-width: 720px;
+    width: 100%;
+    height: 288px;
+}
+.area-box {
+    display: flex;
+    margin-left: 139px;
+    max-width: 720px;
+}
+.form-box {
+    display: flex;
+    flex-direction: column;
 }
